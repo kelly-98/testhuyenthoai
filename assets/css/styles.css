@@ -40,6 +40,7 @@ body {
   background-repeat: no-repeat;
   /*background-image: url('../../assets/img/bg3.png');*/
   background-image: url("../img/bg_trungthu.png");
+  /* background-image: url("../img/bg.jpg"); */
   font-family: "Helveticaneue", sans-serif !important;
   /* padding-top: 77px; */
 }
@@ -824,7 +825,22 @@ main .box {
   vertical-align: top;
 }
 main .box.mid {
-  max-width: 570px;
+  max-width: 620px;
+}
+
+.section-mid {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-launcher {
+  width: 250px;
+  cursor: pointer;
+}
+
+.card-launcher a img {
+  width: 100%;
 }
 
 /* GUIA */
@@ -2878,4 +2894,12 @@ body {
 
 .d-none {
   display: none !important;
+}
+
+/* Dev: Min */
+
+.section-banner {
+  display: flex;
+  gap: 20px;
+  float: none;
 }
