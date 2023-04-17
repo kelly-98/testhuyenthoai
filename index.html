@@ -177,7 +177,7 @@
         <nav id="menu">
           <ul class="container">
             <li>
-              <a href="index.html">TRANG CHỦ</a>
+              <a href="/">TRANG CHỦ</a>
             </li>
             <li>
               <a href="javascript:accountSection()">TÀI KHOẢN</a>
@@ -196,6 +196,9 @@
             </li>
           </ul>
         </nav>
+        <div class="header-banner">
+          <img src="assets/img/logo.png" />
+        </div>
       </header>
       <main>
         <div class="container">
@@ -325,8 +328,8 @@
             <div class="widget">
               <h3>Fanpage</h3>
               <center>
-                <iframe
-                  src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/gunnyhuyenthoaivn/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0/&tabs=timeline&width=298&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+                <!-- <iframe
+                  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgunnyhuyenthoaivn&tabs=timeline&width=298&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                   width="298"
                   height="500"
                   style="border: none; overflow: hidden"
@@ -334,7 +337,27 @@
                   frameborder="0"
                   allowfullscreen="true"
                   allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                ></iframe>
+                ></iframe> -->
+                <div
+                  class="fb-page"
+                  data-href="https://www.facebook.com/gunnyhuyenthoaivn"
+                  data-tabs="timeline"
+                  data-width=""
+                  data-height=""
+                  data-small-header="false"
+                  data-adapt-container-width="true"
+                  data-hide-cover="false"
+                  data-show-facepile="true"
+                >
+                  <blockquote
+                    cite="https://www.facebook.com/gunnyhuyenthoaivn"
+                    class="fb-xfbml-parse-ignore"
+                  >
+                    <a href="https://www.facebook.com/gunnyhuyenthoaivn"
+                      >Gunny Huyền Thoại - Phiên Bản Hồi Ức</a
+                    >
+                  </blockquote>
+                </div>
               </center>
             </div>
           </aside>
@@ -846,6 +869,14 @@
         </nav>
       </div>
     </footer>
+
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v16.0"
+      nonce="WiHizYox"
+    ></script>
 
     <script src="assets/js/self.js"></script>
     <script src="assets/js/slide.js"></script>

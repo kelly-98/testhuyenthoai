@@ -38,9 +38,10 @@ body {
   background-color: #ffffff;
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover;
   /*background-image: url('../../assets/img/bg3.png');*/
-  background-image: url("../img/bg_trungthu.png");
-  /* background-image: url("../img/bg.jpg"); */
+  /* background-image: url("../img/bg_trungthu.png"); */
+  background-image: url("../img/bg.png");
   font-family: "Helveticaneue", sans-serif !important;
   /* padding-top: 77px; */
 }
@@ -2902,4 +2903,16 @@ body {
   display: flex;
   gap: 20px;
   float: none;
+}
+
+#dynamicContentView {
+  width: 100%;
+}
+
+.header-banner {
+  width: 800px;
+}
+
+.header-banner img {
+  width: 100%;
 }

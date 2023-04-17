@@ -265,6 +265,7 @@
         $(".page-wrapper").addClass("toggled");
       });
       function loadpage(id) {
+        console.log(id);
         if (id == 0) {
           var link = "huongdan.php";
         } else if (id == 1) {
@@ -293,6 +294,8 @@
           var link = "/banitem";
         } else if (id == 13) {
           var link = "/changeitem";
+        } else if (id == 14) {
+          var link = "/napusdt";
         } else {
           var link = "huongdan.php";
         }
