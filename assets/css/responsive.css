@@ -623,6 +623,25 @@
   }
 }
 
+@media screen and (max-width: 850px) {
+  .section-banner {
+    flex-direction: column;
+  }
+  .slide-right-custom {
+    width: 100% !important;
+  }
+  .slideshow-container {
+    max-width: unset !important;
+    width: 100%;
+  }
+  .section-mid {
+    flex-direction: column;
+  }
+  .card-launcher {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .header-banner {
     width: 350px;
